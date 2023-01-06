@@ -5,8 +5,50 @@ body{
 }
 
 .intro{
-    border: 5px solid rgb(rgb(94, 241, 173);
-    height: 500px;
-    width: 600px;
+    background-color: rgb(26, 230, 196);
+    border: 5px solid rgb(252, 97, 91);
+    text-align: center;
 }
 
+.img-html{
+    width: auto;
+    background-color: blueviolet;
+}
+
+.img-html > img{
+    width: 100%;
+    height: 325px;
+}
+
+
+
+
+
+.BCSS{
+    text-align: center;
+    width: auto;
+    background-color: rgb(116, 252, 134);
+    border: 5px solid rgb(252, 97, 91);
+    margin: 10px;
+    padding: 5px;
+}
+
+.CSS{
+    border: 3px solid yellow;
+    padding: 5px;
+}
+
+.p1,.p2,.p3{
+    border: 2px dashed salmon;
+    padding: 5px;
+    margin: 10px;
+}
+
+.p2{
+    font-size: 39px;
+}
+
+.p1,.p3{
+    font-weight: bold;
+    font-size: 15px;
+}
