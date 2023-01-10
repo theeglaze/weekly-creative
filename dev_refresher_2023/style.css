@@ -22,8 +22,6 @@ body{
 
 
 
-
-
 .BCSS{
     text-align: center;
     width: auto;
@@ -52,3 +50,99 @@ body{
     font-weight: bold;
     font-size: 15px;
 }
+
+.ACSS{
+    background-color:rgb(66, 241, 212);
+    border: 5px solid rgb(252, 97, 91);
+    margin: 15px;
+    text-align: center; 
+    width: auto;
+}
+
+.box1{
+    display: flex;
+    border: 3px dashed rgb(236, 178, 52);
+    flex: 1;
+    width: auto;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item1, .item2, .item3{
+    border: 5px solid rgb(95, 236, 52);
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 100px; 
+    text-align: center;
+    font-size: 72px;
+}
+
+.S2{
+    background-color: rgb(197, 64, 250);
+    font-size: 22px;
+}
+
+.boxmain{
+    display: flex;
+    flex:auto;
+    width: auto;
+    height: 400px;
+
+}
+
+.box2{
+    display: flex;
+    flex:1; 
+    flex-flow: column-reverse;
+    align-content: center;
+    justify-content: center;
+    border: 3px dashed rgb(197, 64, 250);
+    padding: 5px;
+    margin: 5px;
+}
+
+.item4, .item5, .item6{
+    border: 3px solid rgb(245, 231, 41);
+    margin: 10px;
+}
+
+.box3{
+    display: flex;
+    flex:1; 
+    flex-flow: column-reverse;
+    align-content: center;
+    justify-content: center;
+    border: 3px dashed rgb(116, 252, 134);
+    padding: 5px;
+    margin: 5px;
+}
+
+.item7, .item8, .item9{
+    border: 3px solid rgb(245, 41, 102);
+    margin: 10px;
+}
+
+.S3{
+    background-color: rgb(250, 64, 250);
+    font-size: 22px;
+}
+
+.card{
+    display: flex;
+    border: 3px solid;
+    margin: auto;
+    width: 750px;
+    height: 350px;
+    justify-content: center;
+    align-content: center;
+}
+
+#list{ 
+    flex: 1;
+    align-self: center;
+    margin: 30px;
+    border: 2px solid;
+
+}
+
